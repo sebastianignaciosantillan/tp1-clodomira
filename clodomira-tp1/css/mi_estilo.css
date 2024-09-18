@@ -1,0 +1,229 @@
+
+.contenedor-sobre-nosotros{
+    width: 90vw;
+    max-width: 800px; 
+    background-color: #191919; 
+    color: #000;
+    padding: 100px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos generales */
+body {
+    background-color: #191919;
+    font-family: 'Poppins'; 
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px; /* Espacio para el footer */
+}
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  
+/* Estilos para el header */
+.contenedor-header {
+    width: 100%; 
+}
+
+/* Estilos para el header */
+.contenedor-header {
+    width: 100%; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #161616;
+    padding: 10px 10px;
+    font-family: "Poppins", sans-serif; 
+    font-weight: 800;
+    font-size: 16px;
+}
+
+
+/* Alineacion del logo y del menu*/
+.logo,
+nav {
+    display: inline-block;
+    vertical-align: middle; /* Alinea al centro verticalmente */
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-left: 20px; 
+}
+
+/* Estilos para los enlaces */
+nav ul li a {
+    text-decoration: none;
+    color: #686868;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+/* Evita que el contenido posterior flote junto al logo y nav */
+.contenedor-header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Seccion de detalles */
+.detalles , entretenimientos {
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.contenedor-portada{
+    width: 100vw;
+    max-width: 800px; 
+    background-color: #191919; 
+    color: #f0e8e8;
+    padding: 100px;
+    margin: 0 auto; 
+}
+
+.contenedor-sobre-nosotros{
+    width: 90vw;
+    max-width: 800px; 
+    background-color: #191919; 
+    color: #e6e0e0;
+    padding: 100px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.contenedor-detalles, contenedor-entretenimiento {
+    width: 96vw;
+    max-width: 800px; 
+    background-color: #161616; 
+    color: beige;
+    padding: 100px;
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.detalle, entretenimiento {
+    margin-bottom: 20px;
+}
+
+.detalle, entretenimiento, h2 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.detalle img {
+    width: 100%; 
+    height: auto; 
+    margin-bottom: 10px;
+}
+
+.detalle p {
+    font-size: 16px; 
+    line-height: 1.5;
+}
+
+
+/*Tabla para funcion de cine */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Formulario de contacto */
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #292727;
+}
+form label {
+    color: #ccc;
+}
+div {
+    margin-bottom: 1em;
+}
+label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+input {
+    border: 1px solid #CCCCCC;
+    padding: .5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+button {
+    padding: 0.7em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+button:hover{
+    color: #eff1f3;
+    background-color: #0011ff;
+}
+button:disabled {
+    background-color: #CCCCCC;
+}
+
+/* Estilos para el footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #191919;
+    color: beige;
+    text-align: center;
+    padding: 5px 5px;
+    font-size: var(--font-size-p);
+}
+
+footer p{
+    background-color: #191919;
+    font-size: 13px;
+}
